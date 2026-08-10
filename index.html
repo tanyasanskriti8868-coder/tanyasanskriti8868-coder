@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanya Gupta — AI & ML Engineer</title>
+    <style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body, html { background: #0a0a0a; color: #e0e0e0; font-family: 'Courier New', monospace; }
+
+.profile-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  min-height: 100vh;
+}
+
+.glitch-header {
+  position: relative;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(139, 92, 246, 0.1));
+  border: 1px solid #444;
+  border-radius: 8px;
+}
+
+.glitch-text {
+  font-size: 28px;
+  font-weight: bold;
+  position: relative;
+  margin-bottom: 0.5rem;
+  letter-spacing: 2px;
+}
+
+.glitch-text::before {
+  content: attr(data-text);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  z-index: -1;
+  background: linear-gradient(90deg, rgba(255, 0, 0, 0.3), rgba(0, 255, 255, 0.3));
+  clip-path: polygon(0 0, 100% 0, 100% 45%, 0 58%);
+  animation: glitch-anim 3s infinite;
+}
+
+@keyframes glitch-anim {
+  0% { clip-path: polygon(0 0, 100% 0, 100% 45%, 0 58%); left: -2px; }
+  20% { clip-path: polygon(0 25%, 100% 25%, 100% 58%, 0 82%); left: 2px; }
+  40% { clip-path: polygon(0 42%, 100% 11%, 100% 95%, 0 68%); left: -1px; }
+  60% { clip-path: polygon(0 0, 100% 34%, 100% 33%, 0 0%); left: 1px; }
+  80% { clip-path: polygon(0 68%, 100% 25%, 100% 58%, 0 82%); left: -2px; }
+  100% { clip-path: polygon(0 0, 100% 0, 100% 45%, 0 58%); left: 0; }
+}
+
+.marquee-wrapper {
+  overflow: hidden;
+  margin: 1rem 0;
+  background: #1a1a1a;
+  border: 1px solid #444;
+  padding: 0.75rem;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+.marquee {
+  animation: scroll-left 20s linear infinite;
+  white-space: nowrap;
+}
+
+@keyframes scroll-left {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+.marquee:hover { animation-play-state: paused; }
+
+.section {
+  margin-bottom: 2rem;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #6366f1;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.project-card {
+  background: #1a1a1a;
+  border: 1px solid #444;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.project-card:hover {
+  border-color: #6366f1;
+  box-shadow: 0 0 15px rgba(99, 102, 241, 0.2);
+}
+
+.project-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.25rem;
+  cursor: pointer;
+  background: #0f0f0f;
+  transition: background 0.2s;
+}
+
+.project-header:hover {
+  background: #1a1a1a;
+}
+
+.project-title {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.toggle-icon {
+  font-size: 20px;
+  transition: transform 0.3s;
+}
+
+.toggle-icon.active {
+  transform: rotate(180deg);
+}
+
+.project-content {
+  display: none;
+  padding: 1.25rem;
+  border-top: 1px solid #444;
+}
+
+.project-content.show {
+  display: block;
+}
+
+.project-desc {
+  font-size: 14px;
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+  color: #b0b0b0;
+}
+
+.project-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.tech-badge {
+  background: #6366f1;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.project-links {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.project-link {
+  color: #6366f1;
+  text-decoration: none;
+  font-size: 13px;
+  padding: 0.5rem 1rem;
+  border: 1px solid #6366f1;
+  border-radius: 4px;
+  transition: all 0.2s;
+}
+
+.project-link:hover {
+  background: #6366f1;
+  color: white;
+}
+
+.about-box {
+  background: #1a1a1a;
+  border: 1px solid #6366f1;
+  border-radius: 8px;
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.7;
+}
+
+.about-box p {
+  margin-bottom: 0.75rem;
+  font-size: 14px;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  background: #1a1a1a;
+  border: 1px solid #444;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #6366f1;
+  font-size: 13px;
+  transition: all 0.2s;
+}
+
+.contact-link:hover {
+  background: #6366f1;
+  color: white;
+  border-color: #6366f1;
+}
+
+.footer {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #444;
+  text-align: center;
+  font-size: 12px;
+  color: #808080;
+}
+    </style>
+</head>
+<body>
+
+<div class="profile-container">
+  <div class="glitch-header">
+    <div class="glitch-text" data-text=">> TANYA GUPTA">
+      >> TANYA GUPTA
+    </div>
+    <div style="font-size: 13px; color: #b0b0b0; margin-top: 0.5rem;">
+      AI & ML Engineer | Hackathon Enthusiast | Building at the Intersection of AI & India
+    </div>
+  </div>
+
+  <div class="marquee-wrapper">
+    <div class="marquee">
+      ✦ Qwen-Powered AI Storytelling ✦ Full-Stack ML Projects ✦ Competitive Hackathon Builder ✦ NCC Cadet (11 UP Bn) ✦ Content Creator ✦
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">▶ ABOUT ME</div>
+    <div class="about-box">
+      <p><strong>Second-year B.Tech in AI & ML</strong> at Sanskriti University. Self-driven portfolio builder, hackathon competitor, and indie developer building AI solutions with real-world impact.</p>
+      <p>📌 <strong>Passion:</strong> AI filmmaking, multilingual voice AI, fraud detection, and India-focused ML applications</p>
+      <p>🎯 <strong>Currently:</strong> Debugging Qwen pipelines, competing in hackathons, growing tech content on LinkedIn & Instagram</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">🔥 FEATURED PROJECTS</div>
+
+    <div class="project-card">
+      <div class="project-header" onclick="toggleProject(this)">
+        <div class="project-title">🎬 AI Filmmaking Pipeline (QWEN)</div>
+        <span class="toggle-icon">▼</span>
+      </div>
+      <div class="project-content">
+        <div class="project-desc">
+          End-to-end AI short film generation using Qwen model → CapCut video editing. Proof of concept for AI-assisted cinematography and storytelling automation.
+        </div>
+        <div class="project-tech">
+          <span class="tech-badge">Python</span>
+          <span class="tech-badge">Qwen 2.5</span>
+          <span class="tech-badge">CapCut API</span>
+          <span class="tech-badge">Video Generation</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/tanyasanskriti8868-coder/AI-Filmmaking-From-QWEN" target="_blank" class="project-link">→ View Repo</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-header" onclick="toggleProject(this)">
+        <div class="project-title">🤖 Arcanova AI (Storytelling Assistant)</div>
+        <span class="toggle-icon">▼</span>
+      </div>
+      <div class="project-content">
+        <div class="project-desc">
+          Advanced storytelling system combining Qwen 2.5 (1.5B) inference on Google Colab GPU with Kokoro TTS and Streamlit frontend. Colab CLI enables seamless cloud-local communication.
+        </div>
+        <div class="project-tech">
+          <span class="tech-badge">Streamlit</span>
+          <span class="tech-badge">Qwen 2.5</span>
+          <span class="tech-badge">Kokoro TTS</span>
+          <span class="tech-badge">Google Colab</span>
+          <span class="tech-badge">Colab CLI</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/tanyasanskriti8868-coder/AI-Storytelling-Assistant" target="_blank" class="project-link">→ View Repo</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-header" onclick="toggleProject(this)">
+        <div class="project-title">🛍️ Amazon Clone</div>
+        <span class="toggle-icon">▼</span>
+      </div>
+      <div class="project-content">
+        <div class="project-desc">
+          Full-stack e-commerce platform with product browsing, shopping cart, checkout flow, and responsive design. Clean architecture demonstrating modern web dev practices.
+        </div>
+        <div class="project-tech">
+          <span class="tech-badge">React</span>
+          <span class="tech-badge">Node.js</span>
+          <span class="tech-badge">Firebase</span>
+          <span class="tech-badge">Tailwind CSS</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/tanyasanskriti8868-coder/AMAZON-CLONE-PAGE" target="_blank" class="project-link">→ View Repo</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-header" onclick="toggleProject(this)">
+        <div class="project-title">🎨 ABTalks Redesign</div>
+        <span class="toggle-icon">▼</span>
+      </div>
+      <div class="project-content">
+        <div class="project-desc">
+          Modern UI/UX redesign of ABTalks platform with improved user experience, accessibility focus, and contemporary design patterns.
+        </div>
+        <div class="project-tech">
+          <span class="tech-badge">React</span>
+          <span class="tech-badge">UI/UX Design</span>
+          <span class="tech-badge">Responsive</span>
+          <span class="tech-badge">Figma</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/tanyasanskriti8868-coder/abtalks-redesign" target="_blank" class="project-link">→ View Repo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">🔗 CONNECT WITH ME</div>
+    <div class="contact-grid">
+      <a href="mailto:tanyasanskriti8868@gmail.com" class="contact-link">
+        <span>✉</span> Email
+      </a>
+      <a href="https://github.com/tanyasanskriti8868-coder" target="_blank" class="contact-link">
+        <span>→</span> GitHub
+      </a>
+      <a href="https://www.linkedin.com/in/tanya-gupta-81ba792b0" target="_blank" class="contact-link">
+        <span>💼</span> LinkedIn
+      </a>
+      <a href="https://x.com/TanyaGupta62189" target="_blank" class="contact-link">
+        <span>𝕏</span> Twitter
+      </a>
+      <a href="https://medium.com/@tanyasanskriti08" target="_blank" class="contact-link">
+        <span>📝</span> Medium
+      </a>
+    </div>
+  </div>
+
+  <div class="footer">
+    Last updated: August 2026 | Made with curiosity + code | Always shipping 🚀
+  </div>
+</div>
+
+<script>
+function toggleProject(headerElement) {
+  const content = headerElement.nextElementSibling;
+  const icon = headerElement.querySelector('.toggle-icon');
+  
+  content.classList.toggle('show');
+  icon.classList.toggle('active');
+}
+</script>
+
+</body>
+</html>
