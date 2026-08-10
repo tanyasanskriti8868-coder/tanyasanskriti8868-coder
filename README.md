@@ -3,22 +3,28 @@
 **AI & ML Engineer | Hackathon Builder | Storytelling with Code**
 
 ```
-🤖 First-year B.Tech AI & ML @ Sanskriti University
+🤖 Second-year B.Tech AI & ML @ Sanskriti University
 📍 Building portfolio independently | Competing in hackathons
-🎬 Obsessed with AI filmmaking + LLMs
+🎬 Obsessed with AI + LLMs
 ```
 
 ---
 
 ## ⚡ Quick Facts
 
-- 🏆 **1st Prize** — WebForge 2026 (IEEE CIS, Manipal)
+- 🏆 3rd in Technical Paper Presentation held @Sanskriti University
 - 🎯 Shipped **4 end-to-end ML/AI projects** in production mindset
 - 📝 Writing on [Medium](https://medium.com/@tanyasanskriti08) about AI, ML, filmmaking
 - 🔗 Growing tech content on [LinkedIn](https://www.linkedin.com/in/tanya-gupta-81ba792b0) & [Twitter](https://x.com/TanyaGupta62189)
-- 🎖️ **NCC Cadet** — 11 UP Battalion, Mathura
-
+- 🎖️ **NCC Cadet** — 11 UP Battalion, Mathura(GOLD MEDALIST - Weapon Training,Debate,Cultural)
 ---
+  Education
+
+B.Tech in Artificial Intelligence & Machine Learning @Sanskriti University
+First Year CGPA: 8.52
+
+Along with academics, I am also a classical Kathak dancer, currently in my 5th year of training at Prayag Sangeet Samiti, Allahabad (Prayagraj).
+
 
 ## 🔥 Featured Projects
 
@@ -118,7 +124,7 @@ ID: `D77791511F72B1B5`
 
 ## 📚 Writing & Content
 
-I write about **AI, ML, filmmaking, and building** on these platforms:
+I write about **AI, ML, LLM,TTS and building** on these platforms:
 
 - 📰 **Medium** — [@tanyasanskriti08](https://medium.com/@tanyasanskriti08) — Deep dives on AI & ML
 - 💼 **LinkedIn** — [@tanya-gupta-81ba792b0](https://www.linkedin.com/in/tanya-gupta-81ba792b0) — Project breakdowns & insights
