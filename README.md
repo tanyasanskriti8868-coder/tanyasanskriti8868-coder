@@ -7,7 +7,7 @@
 📍 Building portfolio independently | Competing in hackathons
 🎬 Obsessed with AI + LLMs
 ```
-
+[PORTFOLIO](https://tanyasanskriti8868-coder.github.io/tanyasanskriti8868-coder/)
 ---
 
 ## ⚡ Quick Facts
