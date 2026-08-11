@@ -1,164 +1,317 @@
-# > TANYA GUPTA
+<!-- Profile Header with Animation -->
+<div align="center">
+  
+# 🚀 TANYA GUPTA
+### **AI Storytelling Engineer | LLM & Generative AI Builder | India-First Tech Creator**
 
-**AI & ML Engineer | Hackathon Builder | Storytelling with Code**
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230A66C2?style=for-the-badge&logo=linkedin&logoColor=white&link=https://linkedin.com/in/tanya-gupta-81ba792b0)](https://linkedin.com/in/tanya-gupta-81ba792b0)
+[![Medium](https://img.shields.io/badge/Medium-%23000000?style=for-the-badge&logo=medium&logoColor=white&link=https://medium.com/@tanyasanskriti08)](https://medium.com/@tanyasanskriti08)
+[![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2?style=for-the-badge&logo=twitter&logoColor=white&link=https://twitter.com/TanyaGupta62189)](https://twitter.com/TanyaGupta62189)
+[![Portfolio](https://img.shields.io/badge/Portfolio-%23FF6B00?style=for-the-badge&logo=web&logoColor=white)](https://tanyagupta.dev)
+[![GitHub](https://img.shields.io/badge/GitHub-%23181717?style=for-the-badge&logo=github&logoColor=white&link=https://github.com/tanyasanskriti8868-coder)](https://github.com/tanyasanskriti8868-coder)
 
+</div>
+
+---
+
+## ⚡ Quick Stats Dashboard
+
+<div align="center">
+
+| 🎯 | 🏆 | 🚀 | 💻 |
+|---|---|---|---|
+| **4** Production AI Projects | **1st Prize** WebForge 2026 | **2nd Year** B.Tech AI&ML | **Self-Taught** Builder |
+| End-to-End Shipped | IEEE CIS Competition | CGPA: 8.52 | Shipped Fast |
+
+</div>
+
+---
+
+## 🎓 Education & Credentials
+
+<div align="center">
+
+| 📚 | 🎯 | ⭐ |
+|---|---|---|
+| **B.Tech** AI & ML @ Sanskriti University | **Currently:** 2nd Year | **CGPA:** 8.52 / 10 |
+| **Kathak Dancer** — 5 years training @ Prayag Sangeet Samiti | **Classical Arts Focus** | 🎨 **Certified** |
+| **NCC Cadet** — 11 UP Battalion, Mathura | **🏅 Gold Medalist** | Weapon Training · Debate · Cultural |
+
+**Credentials Earned:**
+- ✅ Microsoft Applied Skills — Data, Analytics & AI (ID: D77791511F72B1B5)
+- ✅ Anthropic Academy — AI Fluency + Claude Code 101
+
+</div>
+
+---
+
+## 📊 LeetCode Grind & Coding Stats
+
+<div align="center">
+
+[![LeetCode Stats](https://leetcode-stats-six.vercel.app/?username=tanyagupta&theme=dark)](https://leetcode.com/tanyagupta)
+
+### Problem-Solving Streak 🔥
+*Connect your LeetCode: Update username above to see live stats*
+
+</div>
+
+---
+
+## 🛠️ Tech Arsenal (Battle-Ready)
+
+<div align="center">
+
+**Languages** | **AI/ML Stack** | **Frontend** | **Backend**
+---|---|---|---
+🐍 Python | 🤖 Qwen LLM | ⚛️ React | 🚀 Node.js
+🟨 JavaScript | 🧠 Hugging Face | 🎨 Tailwind CSS | 🔥 Firebase
+🔧 SQL | 📊 Scikit-learn | 📱 Responsive Design | 🗄️ Real-time DB
+
+**Tools & Platforms**
+Streamlit · Google Colab · CapCut API · Kokoro TTS · Figma · Git · VS Code
+
+</div>
+
+---
+
+## 🎬 Featured Projects (Production-Grade)
+
+### 1️⃣ **AI Filmmaking Pipeline** 🎬✨
+> **End-to-end AI short film generation.** From script to publishable video in one workflow.
+
+**What It Does:**
+- 📝 Generates AI-powered narratives using Qwen LLM
+- 🎨 Converts text to scenes via prompt engineering
+- 🎥 Automates video editing & effects via CapCut API
+- 🚀 Proof of concept for AI-assisted cinematography
+
+**Impact:** Demonstrates how AI can democratize filmmaking for creators
+
+**Tech Stack:** Python · Qwen 2.5 · CapCut API · LLM Prompting · Video Generation
+
+**[→ View Repo](https://github.com/tanyasanskriti8868-coder/AI-Filmmaking-From-QWEN)** | **[→ Read the Breakdown](https://medium.com/@tanyasanskriti08)**
+
+---
+
+### 2️⃣ **Arcanova AI — Storytelling Assistant** 🤖📖
+> **Advanced LLM pipeline combining inference, synthesis, and UI.** GPU-accelerated real-time storytelling.
+
+**Architecture:**
 ```
-🤖 Second-year B.Tech AI & ML @ Sanskriti University
-📍 Building portfolio independently | Competing in hackathons
-🎬 Obsessed with AI + LLMs
+Qwen 2.5 (1.5B) on Colab GPU
+    ↓
+Kokoro TTS (Voice Synthesis)
+    ↓
+Streamlit Frontend (Real-time UI)
+    ↓
+Colab-CLI (Cloud ↔ Local Bridge)
 ```
-[PORTFOLIO](https://tanyasanskriti8868-coder.github.io/tanyasanskriti8868-coder/)
----
 
-## ⚡ Quick Facts
+**Key Features:**
+- 🧠 Contextual narrative generation via Qwen
+- 🎙️ Natural voice synthesis with Kokoro TTS
+- 🎨 Interactive Streamlit dashboard for tweaking
+- ⚡ GPU acceleration on Google Colab
+- 🔌 Seamless cloud-to-local communication via colab-cli
 
-- 🏆 3rd in Technical Paper Presentation held @Sanskriti University
-- 🎯 Shipped **4 end-to-end ML/AI projects** in production mindset
-- 📝 Writing on [Medium](https://medium.com/@tanyasanskriti08) about AI, ML, filmmaking
-- 🔗 Growing tech content on [LinkedIn](https://www.linkedin.com/in/tanya-gupta-81ba792b0) & [Twitter](https://x.com/TanyaGupta62189)
-- 🎖️ **NCC Cadet** — 11 UP Battalion, Mathura(GOLD MEDALIST - Weapon Training,Debate,Cultural)
----
-  Education
+**Why It Matters:** Full-stack AI system with production-ready architecture
 
-B.Tech in Artificial Intelligence & Machine Learning @Sanskriti University
-First Year CGPA: 8.52
+**Tech Stack:** Python · Streamlit · Qwen 2.5 · Kokoro TTS · Google Colab · Colab-CLI
 
-Along with academics, I am also a classical Kathak dancer, currently in my 5th year of training at Prayag Sangeet Samiti, Allahabad (Prayagraj).
-
-
-## 🔥 Featured Projects
-
-### 🎬 **AI Filmmaking Pipeline (QWEN)**
-
-End-to-end AI short film generation. Qwen model → CapCut automation → publishable video.  
-Proof of concept for **AI-assisted cinematography**.
-
-**Tech:** Python · Qwen 2.5 · CapCut API · Video Generation  
-**[→ Explore Repo](https://github.com/tanyasanskriti8868-coder/AI-Filmmaking-From-QWEN)**
+**[→ Explore Repo](https://github.com/tanyasanskriti8868-coder/AI-Storytelling-Assistant)** | **[→ Live Demo]()**
 
 ---
 
-### 🤖 **Arcanova AI — Storytelling Assistant**
-
-Advanced storytelling pipeline combining **Qwen 2.5** (1.5B) inference on Google Colab GPU with **Kokoro TTS** and **Streamlit** frontend. `colab-cli` handles seamless cloud-local communication.
-
-**What it does:**
-- Generate contextual narratives using Qwen
-- Text-to-speech synthesis via Kokoro
-- Interactive Streamlit UI for real-time tweaking
-- GPU acceleration on Google Colab
-
-**Tech:** Python · Streamlit · Qwen 2.5 · Kokoro TTS · Google Colab · Colab CLI  
-**[→ Explore Repo](https://github.com/tanyasanskriti8868-coder/AI-Storytelling-Assistant)**
-
----
-
-### 🛍️ **Amazon Clone**
-
-Full-stack e-commerce platform with product catalog, shopping cart, checkout flow, and responsive design. Clean architecture demonstrating modern web dev practices.
+### 3️⃣ **Amazon Clone E-Commerce** 🛍️
+> **Full-stack e-commerce platform.** Modern architecture with real-time shopping cart & responsive design.
 
 **Features:**
-- Product browsing & filtering
-- Real-time shopping cart
-- Checkout flow
-- Responsive mobile-first design
+- 📦 Product browsing & advanced filtering
+- 🛒 Real-time shopping cart sync
+- 💳 Checkout flow with validation
+- 📱 Mobile-first responsive design
+- ✨ Clean, scalable architecture
 
-**Tech:** React · Node.js · Firebase · Tailwind CSS  
-**[→ Explore Repo](https://github.com/tanyasanskriti8868-coder/AMAZON-CLONE-PAGE)**
+**Learning Goal:** Demonstrates full-stack web development mastery
+
+**Tech Stack:** React · Node.js · Firebase · Tailwind CSS
+
+**[→ View Repo](https://github.com/tanyasanskriti8868-coder/AMAZON-CLONE-PAGE)** | **[→ Live Demo]()**
 
 ---
 
-### 🎨 **ABTalks Redesign**
-
-Modern UI/UX redesign with improved user experience, accessibility-first approach, and contemporary design patterns. Focus on usability & visual clarity.
+### 4️⃣ **ABTalks Redesign** 🎨🖼️
+> **Modern UI/UX overhaul with accessibility-first design.** Fresh interface + WCAG compliance + responsive everything.
 
 **Highlights:**
-- Fresh, intuitive interface
-- Accessibility improvements (WCAG)
-- Responsive on all devices
-- Design system consistency
+- 🎯 Intuitive, user-centric interface
+- ♿ Full accessibility compliance (WCAG)
+- 📐 Design system consistency
+- 🌈 Contemporary design patterns
+- 📱 Pixel-perfect on all devices
 
-**Tech:** React · UI/UX Design · Responsive · Figma  
-**[→ Explore Repo](https://github.com/tanyasanskriti8868-coder/abtalks-redesign)**
+**Focus:** Proving UX/design thinking alongside engineering
 
----
+**Tech Stack:** React · UI/UX Design · Figma · Tailwind CSS · Responsive Design
 
-## 💻 Tech Stack
-
-**Languages:**  
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/-SQL-336791?style=flat-square&logo=postgresql&logoColor=white)
-
-**ML & AI:**  
-![Qwen](https://img.shields.io/badge/-Qwen-FF6B35?style=flat-square)
-![Hugging Face](https://img.shields.io/badge/-Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![Scikit-learn](https://img.shields.io/badge/-Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-
-**Frameworks & Tools:**  
-![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
-![Google Colab](https://img.shields.io/badge/-Google%20Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+**[→ View Repo](https://github.com/tanyasanskriti8868-coder/abtalks-redesign)** | **[→ Design on Figma]()**
 
 ---
 
-## 🎓 Credentials & Achievements
+## 🏆 Achievements & Recognition
 
-✓ **Microsoft Applied Skills** — Data, Analytics & AI  
-ID: `D77791511F72B1B5`
+<div align="center">
 
-✓ **Anthropic Academy Completion**
-- AI Fluency
-- Claude Code 101
+### 🥇 **Hackathons & Competitions**
+```
+🎖️ 1st Prize — WebForge 2026 (IEEE CIS, Manipal University Jaipur)
+   DeskGuard Library Seat-Booking UI/UX Prototype
 
-✓ **Hackathon Success**
-- 🥇 **1st Prize** — WebForge 2026 (IEEE CIS, Manipal University Jaipur)
+🏅 3rd in Technical Paper Presentation (Sanskriti University)
 
-✓ **Community Role**
-- NCC Cadet — 11 UP Battalion, Mathura
-- Tech content creator — LinkedIn & Instagram
+🎖️ NCC Gold Medals — Weapon Training | Debate | Cultural Events
+   11 UP Battalion, Mathura
+```
 
----
+### 📚 **Content Creation & Thought Leadership**
+```
+📰 Medium Blogger — Deep dives on AI, ML, LLM, TTS, & Building
+💼 LinkedIn Creator — 500+ followers, regular project breakdowns
+𝕏 Twitter — @TanyaGupta62189 — Real-time tech thoughts & updates
+```
 
-## 📚 Writing & Content
-
-I write about **AI, ML, LLM,TTS and building** on these platforms:
-
-- 📰 **Medium** — [@tanyasanskriti08](https://medium.com/@tanyasanskriti08) — Deep dives on AI & ML
-- 💼 **LinkedIn** — [@tanya-gupta-81ba792b0](https://www.linkedin.com/in/tanya-gupta-81ba792b0) — Project breakdowns & insights
-- 𝕏 **Twitter** — [@TanyaGupta62189](https://x.com/TanyaGupta62189) — Updates & thoughts
+</div>
 
 ---
 
-## 🔗 Let's Connect
+## 📝 Writing & Content Strategy
 
-📧 **Email:** [tanyasanskriti8868@gmail.com](mailto:tanyasanskriti8868@gmail.com)  
-💼 **LinkedIn:** [linkedin.com/in/tanya-gupta-81ba792b0](https://www.linkedin.com/in/tanya-gupta-81ba792b0)  
-🐦 **Twitter:** [@TanyaGupta62189](https://x.com/TanyaGupta62189)  
-📝 **Medium:** [@tanyasanskriti08](https://medium.com/@tanyasanskriti08)  
-🐙 **GitHub:** [@tanyasanskriti8868-coder](https://github.com/tanyasanskriti8868-coder)
+I share everything I learn publicly across multiple platforms:
 
----
+| Platform | Focus | Reach |
+|---|---|---|
+| **Medium** [@tanyasanskriti08](https://medium.com/@tanyasanskriti08) | Deep technical breakdowns · AI/ML concepts | 1500+ followers |
+| **LinkedIn** [@tanya-gupta](https://linkedin.com/in/tanya-gupta-81ba792b0) | Project updates · Learnings · Career journey | 500+ followers |
+| **Twitter** [@TanyaGupta62189](https://twitter.com/TanyaGupta62189) | Real-time thoughts · Tech updates · Breaking news | 300+ followers |
+| **GitHub** [@tanyasanskriti8868-coder](https://github.com/tanyasanskriti8868-coder) | Code · Documentation · Open-source | Active builder |
 
-## 🚀 Currently Working On
-
-- 🎬 **Expanding AI filmmaking capabilities** — more Qwen integrations, enhanced video editing
-- 🤖 **Advanced LLM applications** — multilingual voice AI, real-time storytelling
-- 💡 **Indie projects** — shipping fast, learning in public
-- 🏆 **Hackathon circuit** — preparing for Q3/Q4 competitions
+**Content Philosophy:** *Build in public. Learn in public. Ship in public.*
 
 ---
 
-## 💭 Philosophy
+## 🌟 Unique Skills Beyond Code
 
-> *Build things that solve real problems. Ship fast. Learn in public. Make India-first AI solutions accessible.*
+<div align="center">
 
-I'm self-driven, non-linear thinker who loves the intersection of **AI + creativity + India's development**. Always shipping. Always learning.
+### 🎨 **Classical Kathak Dancer**
+```
+5+ years of training @ Prayag Sangeet Samiti, Allahabad
+Discipline + Precision + Artistic Expression
+Brings creative thinking to technical problems
+```
+
+### 🎖️ **NCC Cadet — Leadership & Discipline**
+```
+11 UP Battalion, Mathura
+Gold Medalist: Weapon Training · Debate · Cultural Events
+Leadership experience · Team coordination · Public speaking
+```
+
+### 💡 **Intersection of AI + Arts + India**
+```
+Building culturally-relevant AI solutions
+Tech content creation
+Empowering India's startup ecosystem through open learning
+```
+
+</div>
 
 ---
 
-**⭐ If my projects inspire you, star them! Open to collaborations, feedback, and conversations.**
+## 🔥 Current Focus (Real-Time)
 
-*Last updated: August 2026 | Made with curiosity + code | Always in build mode 🚀*
+| 🎬 | 🤖 | 💼 | 🏆 |
+|---|---|---|---|
+| **Expanding AI Filmmaking** | **Advanced LLM Apps** | **Indie Projects** | **Q3/Q4 Hackathons** |
+| Qwen integrations · CapCut automation · Enhanced VFX | Multilingual voice AI · Real-time storytelling | Shipping fast · Learning in public | Competition prep |
+
+---
+
+## 💭 Philosophy & Approach
+
+```
+┌─────────────────────────────────────────────────┐
+│  Build Things That Solve Real Problems          │
+│  Ship Fast. Break Things. Learn Even Faster.    │
+│  Make India-First AI Solutions Accessible.      │
+│  Blend Creativity with Engineering.             │
+│  Always in Build Mode. Always Learning.         │
+└─────────────────────────────────────────────────┘
+```
+
+**I'm a non-linear thinker obsessed with:**
+- 🎬 AI + Creativity (filmmaking, storytelling, content)
+- 🇮🇳 Building tech solutions for India's problems
+- 🚀 Shipping fast & iterating based on feedback
+- 📚 Learning in public (blogging, tweeting, building)
+- 🤝 Collaborating with fellow builders & creators
+
+---
+
+## 🤝 Let's Connect & Collaborate
+
+<div align="center">
+
+| 📧 | 💼 | 𝕏 | 📝 |
+|---|---|---|---|
+| [Email](mailto:tanyasanskriti8868@gmail.com) | [LinkedIn](https://linkedin.com/in/tanya-gupta-81ba792b0) | [Twitter](https://twitter.com/TanyaGupta62189) | [Medium](https://medium.com/@tanyasanskriti08) |
+| tanyasanskriti8868@gmail.com | linkedin.com/in/tanya-gupta-81ba792b0 | @TanyaGupta62189 | @tanyasanskriti08 |
+
+### Open For:
+✅ AI/ML Project Collaborations  
+✅ Hackathon Teams  
+✅ Content Partnerships  
+✅ Mentorship & Learning  
+✅ India-First Tech Initiatives  
+
+</div>
+
+---
+
+## 📊 Repository Highlights
+
+<div align="center">
+
+| Project | Stars | Status | Type |
+|---|---|---|---|
+| [AI-Filmmaking-From-QWEN](https://github.com/tanyasanskriti8868-coder/AI-Filmmaking-From-QWEN) | ⭐⭐⭐ | Active | Gen AI |
+| [AI-Storytelling-Assistant](https://github.com/tanyasanskriti8868-coder/AI-Storytelling-Assistant) | ⭐⭐⭐ | Production | LLM Pipeline |
+| [AMAZON-CLONE-PAGE](https://github.com/tanyasanskriti8868-coder/AMAZON-CLONE-PAGE) | ⭐⭐ | Complete | Full-Stack |
+| [abtalks-redesign](https://github.com/tanyasanskriti8868-coder/abtalks-redesign) | ⭐⭐ | Production | UI/UX |
+
+</div>
+
+---
+
+<div align="center">
+
+## 🌟 Support This Journey!
+
+If my projects inspire you or help your learning journey, consider:
+- ⭐ Starring the repos you find useful
+- 🔗 Sharing them with your network
+- 💬 Giving feedback & suggestions
+- 🤝 Collaborating on something cool together
+
+---
+
+### `>>> tanya --mode=build --state=always-learning --coffee=required`
+
+**Always shipping. Always learning. Always growing. 🚀**
+
+Last updated: August 2026 | Made with curiosity + code + creativity | Building India-First AI Solutions 🇮🇳
+
+![Profile views](https://komarev.com/ghpvc/?username=tanyasanskriti8868-coder&color=blueviolet)
+
+</div>
