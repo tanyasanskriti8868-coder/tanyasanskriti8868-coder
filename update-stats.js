@@ -1,9 +1,9 @@
 const fs = require('fs');
 const https = require('https');
 
-const LEETCODE_USERNAME = process.env.LEETCODE_USERNAME || 'your_leetcode_username';
+const LEETCODE_USERNAME = process.env.LEETCODE_USERNAME || 'tanyasanskriti8868';
 const GITHUB_USERNAME = process.env.GITHUB_USERNAME || 'tanyasanskriti8868-coder';
-const MEDIUM_USERNAME = process.env.MEDIUM_USERNAME || 'your_medium_username';
+const MEDIUM_USERNAME = process.env.MEDIUM_USERNAME || 'tanyasanskriti08';
 
 // Fetch LeetCode Stats
 async function fetchLeetCodeStats() {
